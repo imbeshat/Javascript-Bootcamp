@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <p>
+        The form tag is used to collect user inputs with the help of interactive sections.
+    </p>
+    <p>
+        <form action="">
+            <input type="hidden" name="formId" value="231"><br>
+            <label for="name">Name: </label> 
+            <input type="text" placeholder="Full Name" required> <br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="Password" required><br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Email" required> <br>
+            <label for="phNumber">Contact Number: </label>
+            <input type="number" name="phoneNumber" id="phoneNumber"><br>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="male">Male
+            <input type="radio" name="gender" id="female">Female <br>
+            <label for="dob">DOB: </label>
+            <input type="date" name="dob" id="dob"> <br>
+            <label for="course">Course: </label>
+            <input type="checkbox" name="html" id="html">HTML
+            <input type="checkbox" name="css" id="css">CSS
+            <input type="checkbox" name="javascript" id="javascript">Javascript <br>
+            <label for="favColor">Favourite Color: </label>
+            <input type="color" name="favColor" id="favColor"><br>
+            <label for="payment">Is payment done?</label>
+            <select>
+                <option name="yes" id="yes">Yes</option>
+                <option name="no" id="no">No</option>
+            </select> <br>
+            <label for="receipt">At what time was payment done?</label>
+            <input type="time" name="paymentTime" id="paymentTime"> <br>
+            <label for="paymentProof">Upload Payment receipt</label>
+            <input type="file" name="paymentProof" id="paymentProof" accept=".pdf"><br>
+            <label for="skill">Rate your Skill: </label>
+            <input type="range" name="skillRate" id="skillRate" min="0" max="10"><br>
+            <input type="submit" value="Submit">OR
+            <input type="image" src="./image/submit-button-icon-png.png" alt="submit" height="40px">
+            <input type="reset" value="Reset">
+            <button type="reset">Button</button>
+        </form>
+    </p>
+</body>
+</html>
